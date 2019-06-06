@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+ 
+}
+#reiniciar{
+	display: none;
+}
+body {
+  /* background-image: linear-gradient(to right, #47E0F4 , #005B97); */
+  background-image: url("bg.jpeg");
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+h2{
+	display: none;	
+	text-align: center;
+}
+h4, progress{
+	display: none;
+	padding-left: 37.5px;
+}
+progress{
+	margin-left: 37.5px;
+}
+button, input {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+.spanStyle{
+	font-weight: bold;
+	color: green;
+	display: none;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+input {
+  line-height: normal;
+}
+.topnav{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background: rgba(11, 182, 82, 0.5);
+ 
+
+}
+.a_inicio{
+  color: #fff;
+  }
+
+#container {
+  background-color: rgba(11, 182, 82, 0.5);
+  padding: 25px;
+  
+  /* border: solid 3px #474544; */
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+.container_dos{
+  background-color: #fff;
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  margin: 10px;
+  padding: 10px;
+}
+
+form#loguin_form{
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+form#question_form {
+  
+  padding-left: 37.5px;
+  padding-right: 37.5px;
+}
+
+#marcado1,#marcado2,#marcado3,#marcado4,#marcado5,#marcado6,#marcado7,#marcado8,#marcado9{
+	font-weight: bold;
+	display: none;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 180px;
+}
+
+input[type='text']{
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	
+}
+
+input[type='text']:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.nombre_input {
+	float: left;
+	width: 45%;
+}
+
+.apellido_input {
+	float: left;
+	width: 45%;
+}
+
+#question_form{
+	display: none;
+}
+
+#pregunta2,#pregunta3,#pregunta4,#pregunta5,#pregunta6,#pregunta7,#pregunta8,#pregunta9,#finalizar{
+	display: none;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+.form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+
+}
+
+.form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+button:disabled  {
+  color: #474544;
+  cursor: default;
+  pointer-events: none;
+}
+
+.paginacion {
+	margin:20px 0;
+	display:none;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#aaa;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+    
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'] {
+    font-size: 0.875em;
+  }
+}
+
